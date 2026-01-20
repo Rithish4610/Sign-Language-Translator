@@ -12,12 +12,30 @@
   <video id="video" autoplay></video>
   <canvas id="canvas"></canvas>
 
+
   <h2>Detected Letter:</h2>
   <div id="output">—</div>
+
+  <h2>Current Word:</h2>
+  <div id="word">—</div>
+
+  <h2>Sentence:</h2>
+  <div id="sentence">—</div>
+
+  <div class="controls">
+    <button id="spaceBtn">Space</button>
+    <button id="clearBtn">Clear</button>
+  </div>
+
+  <h2>Confidence:</h2>
+  <div id="confidence">0%</div>
 
   <!-- MediaPipe -->
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+
+  <!-- TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
 
   <script src="script.js"></script>
 </body>
