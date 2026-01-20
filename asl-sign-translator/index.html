@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASL Sign Language Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🤟 ASL Sign Language Translator</h1>
+
+  <video id="video" autoplay></video>
+  <canvas id="canvas"></canvas>
+
+  <h2>Detected Letter:</h2>
+  <div id="output">—</div>
+
+  <!-- MediaPipe -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
